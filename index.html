@@ -1500,26 +1500,29 @@
                 class="hidden bg-white/90 backdrop-blur-sm rounded-lg p-4 mt-3"
               >
                 <div class="flex justify-between items-center mb-3 px-2">
+              <div
+                id="expanded-timeline"
+                class="hidden bg-white/90 backdrop-blur-sm rounded-lg p-4 mt-3"
+              >
+                <div class="flex gap-2 items-center mb-3 px-2">
+                  <button
+                    id="timeline-prev-day"
+                    class="p-1.5 rounded-md hover:bg-slate-200 text-slate-600 disabled:opacity-50"
+                  >
+                    <i class="ri-arrow-left-s-line text-lg"></i>
+                  </button>
                   <div
                     id="expanded-timeline-date"
                     class="text-sm font-semibold text-slate-700"
                   >
                     <!-- Date will be populated by JS -->
                   </div>
-                  <div class="flex space-x-1">
-                    <button
-                      id="timeline-prev-day"
-                      class="p-1.5 rounded-md hover:bg-slate-200 text-slate-600 disabled:opacity-50"
-                    >
-                      <i class="ri-arrow-left-s-line text-lg"></i>
-                    </button>
-                    <button
-                      id="timeline-next-day"
-                      class="p-1.5 rounded-md hover:bg-slate-200 text-slate-600 disabled:opacity-50"
-                    >
-                      <i class="ri-arrow-right-s-line text-lg"></i>
-                    </button>
-                  </div>
+                  <button
+                    id="timeline-next-day"
+                    class="p-1.5 rounded-md hover:bg-slate-200 text-slate-600 disabled:opacity-50"
+                  >
+                    <i class="ri-arrow-right-s-line text-lg"></i>
+                  </button>
                 </div>
                 <div
                   id="timeline-thumbnails-container"
