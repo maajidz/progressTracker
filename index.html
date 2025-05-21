@@ -978,8 +978,8 @@
                   events.push({
                     id: `evt-${date.getTime()}-${i}`,
                     time: eventTime,
-                    imageUrl: `https://readdy.ai/api/search-image?query=construction%20site%20snapshot&width=120&height=80&seq=${seed}${i}&orientation=landscape`,
-                    popoverImageUrl: `https://readdy.ai/api/search-image?query=construction%20site%20detail&width=320&height=160&seq=${seed}${i}large&orientation=landscape`,
+                    imageUrl: `https://placehold.co/120x80?text=Event+${i}`,
+                    popoverImageUrl: `https://placehold.co/320x160?text=Popover+${i}`,
                     status: status, // 'Safe', 'Warning', 'Alert'
                     peopleDetected: peopleCount,
                     violations: violations, // Array of {type: string, count: int}
